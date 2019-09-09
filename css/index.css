@@ -11,4 +11,6 @@ H1{
 
 p {
     margin-left:1em;
+    font-weight: lighter;
+    font-style: italic;
 }
