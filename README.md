@@ -1,4 +1,4 @@
-###Content List
+##Content List
 
 - Header 
     - Menu
@@ -42,7 +42,20 @@
     - link to application form 
     - link to more program pdf
 
-###resources
+##resources
 
 www.icons8.com
 www.unsplash.com
+
+##Design Inspiration
+
+![](../img/inspo1.jpg)
+    -
+![](../img/inspo2.jpg)
+    -
+![](../img/inspo3.jpg)
+    -
+![](../img/inspo4.jpg)
+    -
+
+
