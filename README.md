@@ -1,4 +1,4 @@
-##Content List
+## Content List
 
 - Header 
     - Menu
@@ -42,20 +42,20 @@
     - link to application form 
     - link to more program pdf
 
-##resources
+## Resources
 
 www.icons8.com
 www.unsplash.com
 
-##Design Inspiration
+## Design Inspiration
 
-![](../img/inspo1.jpg)
+![](planning/inspo1.jpg)
+    -Colour, Menu design, img grid, section seperation, white space
+![](planning/inspo2.jpg)
     -
-![](../img/inspo2.jpg)
+![](/planning/inspo3.jpg)
     -
-![](../img/inspo3.jpg)
-    -
-![](../img/inspo4.jpg)
+![](/planning/inspo4.jpg)
     -
 
 

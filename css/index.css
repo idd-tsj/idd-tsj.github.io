@@ -7,21 +7,3 @@ body {
     font-style: italic;
 }
 
-H1{
-    font-size: 3em; 
-    font-weight: bold;
-    font-style: normal;
-}
-
-H2{
-    font-size: 2em;
-    font-weight:normal;
-}
-
-H3 {
-    font-size: 1em;
-    font-weight: bold;
-}
-p {
-   margin-left: 1em;
-}
