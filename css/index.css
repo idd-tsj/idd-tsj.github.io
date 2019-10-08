@@ -1,9 +1,91 @@
-body {
-    background-color: whitesmoke;
-    color: rgb(1, 1, 83);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    font-weight: lighter;
-    font-style: italic;
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: whitesmoke;
+    }
+    h2 {
+        font-size: 1em;
+        padding: .5em;
+        margin-top:.5em;
+        margin-bottom:.5em;
+        background-color: black;
+        color: whitesmoke;
+    }
+    p {
+        font-size: 0.75em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+
+    a {
+        text-decoration: none;
+        color:black;
+    }
+
+    .hero h1 {
+        font-size: 4em;
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+        padding-top: 1.25em;
+        padding-bottom: 0.25em; 
+    }
+    .hero p {
+        padding-left: 5em;
+        padding-right: 4em;
+        padding-bottom: 12em;
+        font-size: 1em;
+    }
+
+    .studentgallery ul{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-color: grey;
+    }
+
+    .hero div {
+        text-align: right;
+    }
+
+    /* basic info box*/
+    .hero div {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        margin: 0.5em;
+    }
+    .basic-info ul {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.75em;
+        padding: 1em;
+        margin: .25em;
+        border-style: solid;
+        border-width: .15em;
+    }
+
+    /*graduate profile*/
+    }
+    .graduateprofile div{
+       display: grid;
+       grid-template-columns: 50% 50%;
+       background-color: black;
+       color: whitesmoke;
+       font-size: 0.75em;
+       margin: 0em;
+       padding-bottom: 4em;
+    }
+    .graduateprofile img{
+        max-width: 30em;
+    }
+   .graduateprofile ul {
+       padding-top: 2.5em;
+       padding-right: 2em;
+       font-family: 'Courier New', Courier, monospace;
+   }
+    .graduateprofile p{
+        padding: 0.25em;
+        margin: 0.25em;
+        font-size: 1em;
+    }
+    
 }
 
