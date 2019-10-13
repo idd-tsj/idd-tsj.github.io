@@ -117,24 +117,17 @@
         font-size: 1em;
         text-align: left;
         color:black;
-        
+    }
+
+    .hero-text p{
+        padding: 3em;
+        text-align: center;
     }
 
     .studentgallery ul{
         display: grid;
         grid-template-columns: 50% 50%;
         background-color: grey;
-    }
-
-    .hero div {
-        text-align: right;
-    }
-
-    /* basic info box*/
-    .hero div {
-        padding-top: 1.5em;
-        padding-bottom: 1.5em;
-        margin: 0.5em;
     }
 
     .basic-info ul {
@@ -244,213 +237,193 @@
 
 @media only screen and (min-width: 600px) {
     body {
-      background-color: red;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    h2 {
-        font-size: 0.90em;
-        padding: 0.5em 1em 0.5em 1em;
-        margin-top:.5em;
-        margin-bottom:.5em;
-        background-color: rgb(0, 78, 148);
-        color: whitesmoke;
-        text-align: center;
-    }
+        background-color:whitesmoke;
+        font-family: Abel, Arial, Helvetica, sans-serif;
+      }
+      h2 {
+          font-size: 0.90em;
+          padding: 0.5em 1em 0.5em 1em;
+          margin-top:.5em;
+          margin-bottom:.5em;
+          background-color:rgb(0, 78, 148);
+          color: whitesmoke;
+          text-align: center;
+      }
+  
+      p {
+          font-size: 1em;
+          text-align: left;
+          padding: 0.5em;
+          margin: 0.5em;
+      }
+  
+      a {
+          color: black;
+          padding: .5em;
+          margin: .5em;
+          text-decoration: underline;
+          font-size: .75em;
+      }
+      .box{
+          padding: 1em 0em 1em 0em;
+          margin: 1em 0em 1em 0em;   
+      }
+  
+      .gb-box {
+          display: grid;
+          grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+          padding-top: 0em;
+      }
+  
+      /* logo */
+      .logo {
+          display: grid;
+          grid-template-columns: 20% 20% 20% 20% 20%;
+          padding: 0em 0em 0em 1em;
+          margin-top: 2em 0em 0em 1em;
+          
+      }
+      .logo img{
+          max-width: 6em;
+          grid-column-start: 3;
+          margin: 3em 0em 0em 0em;
+          padding-left: 1em;
+      }
+  
+      /* nav */
+      nav > ul {
+           display: grid;
+           grid-template-columns: 25% 25% 25% 25%;
+           text-align: center;
+           padding: 0em 3em 0em 3em ;
+           margin-left: 0em;
+           font-size: 1em;
+       }
+      
+      h1 {
+          font-size: 4em;
+          padding: 0em 2.5em 0em 2.5em;
+          margin-bottom: 1em;
+          text-align: center;
+          font-family: Permanent Marker;          
+      }
+  
+      .hero-text p {
+          padding: 4em;
+          text-align: center;
+      }
 
-    p {
-        font-size: 0.75em;
-        text-align: left;
-        padding: 0.5em;
-        margin: 0.5em;
-    }
-
-    a {
-        color: black;
-        padding: .5em;
-        margin: .5em;
-        text-decoration: underline;
-        font-size: .75em;
-    }
-    /* logo */
-    .logo {
-        display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20%;
-        padding: 1em 0em 0.5em 0em;
-        margin: 1em;
-        
-    }
-    .logo img{
-        max-width: 6em;
-        grid-column-start: 3;
-        padding: 1em;
-    }
-
-    nav > ul {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        text-align: center;
-        padding: 0em 0em 0em 0em ;
-        margin-left: 0em;
-        font-size: 1em;
-    }
-    .hero h1 {
-        font-size: 3.75em;
-        padding: 0;
-        text-align: right;
-    }
-
-    .hero p {
-        padding: 3em 3em 3em 0em;
-        margin-left: 2em;
-        font-size: 1em;
-        text-align: left;
-        color:black;
-        
-    }
-   
-    .studentgallery ul{
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        padding: 0em 6em 0em 6em;
-        background-color: grey;
-    }
-
-    .studentgallery img {
-        max-height: 10em;
-        min-height: 10em;
-        max-width: 10em;
-        min-width: 10em;
-        overflow: hidden;
-    }
-
-    .sgt div {
-        display: grid;
-        grid-template-columns: 80% 20%;
-    }
-
-    /* basic info box*/
-    .hero div {
-        padding-top: 1.5em;
-        padding-bottom: 1.5em;
-        margin: 0.5em;
-    }
-
-    .basic-info ul {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 0.75em;
-        padding: 1em;
-        margin: .25em;
-        border-style: solid;
-        border-width: .15em;
-    }
-
-    /*graduate profile*/
-    
-    .graduateprofile div{
-       display: grid;
-       grid-template-columns: 50% 50%;
-       background-color: black;
-       color: whitesmoke;
-       font-size: 0.75em;
-       margin: 0em;
-       padding-bottom: 4em;
-    }
-    .graduateprofile img{
-        max-width: 30em;
-    }
-   .graduateprofile ul {
-       padding-top: 2.5em;
-       padding-right: 2em;
-       font-family: 'Courier New', Courier, monospace;
-   }
-   /* catch all p wasn't picking up for this paragraph section */
-    .graduateprofile p{
-        font-size: 0.75em;
-        text-align: left;
-        padding: 0.5em;
-        margin: 0.5em;
-    }
-
-    /*skills grid*/
-
-    .skills-grid {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
-       
-    }
-
-    .skills-grid section {
-        text-align: center;
-        padding-bottom: 3em;
-        
-    }
-
-    .skills-grid img{
-        max-width: 5em;
-        padding: 1em;
-        margin-bottom: 1em;
-    }
-
-    .skills-grid li { 
-        font-family: 'Courier New', Courier, monospace;
-        font-size: .80em;
-    }
-
-    /*tools and programs grid*/
-
-    .icon-list {
-        display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20%;
-        background-color: lightgrey;
-        padding:0.25em;
-    }
-
-    .icon-list li {
-        max-width: 6em;
-        padding:1em;
-        margin: 0.25em;
-        background-color: whitesmoke;
-    }
-
-    /* ordered list of learning outcomes */
-    .learning-outcome{
-        padding: .5em;
-        text-align: center;
-    }
-
-    .learning-outcome li {
-        margin-top: 1.5em;
-        margin-bottom: 1.5em;
-        font-size: 0.75em;
-    }
-
-    .learning-outcome li:nth-of-type(odd){
-    background-color: lightgrey;
-   }
-
-   /* footer*/
-   footer {
-       padding: 1em 0em 1em 0em;
-   }
-
-   footer > ul{
-       display: grid;
-       grid-template-columns: 25% 25% 25% 25%;
-       margin-left: 0.75em;
-   }
-
-   footer > li {
-       margin: .25em;
-       padding-left: 0.25em;
-   }
-
-   .box{
-       padding: 1em 0em 1em 0em;
-       background-color: rgb(0, 78, 148);
-       margin: 1em 0em 1em 0em;   
-   }
-}
+  
+      .studentgallery ul{
+          display: grid;
+          grid-template-columns: 50% 50%;
+          background-color: grey;
+      }
+  
+      .basic-info ul {
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 0.75em;
+          padding: 1em;
+          margin: .25em;
+          border-style: solid;
+          border-width: .15em;
+      }
+  
+      /*graduate profile*/
+      
+      .graduateprofile div{
+         display: grid;
+         grid-template-columns: 50% 50%;
+         background-color: black;
+         color: whitesmoke;
+         font-size: 0.75em;
+         margin: 0em;
+         padding-bottom: 4em;
+      }
+      .graduateprofile img{
+          max-width: 30em;
+          align-self: right;
+      }
+     .graduateprofile ul {
+         padding-top: 2.5em;
+         padding-right: 2em;
+         font-family: 'Courier New', Courier, monospace;
+     }
+     /* catch all p wasn't picking up for this paragraph section */
+      .graduateprofile p{
+          font-size: 0.75em;
+          text-align: left;
+          padding: 0.5em;
+          margin: 0.5em;
+      }
+  
+      /*skills grid*/
+  
+      .skills-grid {
+          display: grid;
+          grid-template-columns: 50% 50%;
+          grid-template-rows: 50% 50%;
+         
+      }
+  
+      .skills-grid section {
+          text-align: center;
+          padding-bottom: 3em;
+          
+      }
+  
+      .skills-grid img{
+          max-width: 5em;
+          padding: 1em;
+          margin-bottom: 1em;
+      }
+  
+      .skills-grid li { 
+          font-family: 'Courier New', Courier, monospace;
+          font-size: .80em;
+      }
+  
+      /*tools and programs grid*/
+  
+      .icon-list {
+          display: grid;
+          grid-template-columns: 20% 20% 20% 20% 20%;
+          background-color: rgb(76,209, 249);
+          padding:0.25em;
+      }
+  
+      .icon-list li {
+          max-width: 6em;
+          padding:1em;
+          margin: 0.25em;
+          background-color: whitesmoke;
+      }
+  
+      /* ordered list of learning outcomes */
+      .learning-outcome{
+          padding: .5em;
+          text-align: center;
+      }
+  
+      .learning-outcome li {
+          margin-top: 1.5em;
+          margin-bottom: 1.5em;
+          font-size: 0.75em;
+      }
+  
+      .learning-outcome li:nth-of-type(odd){
+      background-color:rgb(76,209, 249);
+     }
+  
+     /* footer*/
+     footer {
+         padding: 1em 0em 1em 0em;
+     }
+  
+     .bul {
+         text-align: center;
+     }
+  }
 
 @media only screen and (min-width: 900px) {
     body {
