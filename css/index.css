@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
 /* GBC colours */
 .orange-1 {
@@ -50,7 +51,7 @@
         margin-bottom:.5em;
         color: rgb(0, 78, 148);
         text-align: center;
-        font-family: Permanent Marker;
+        font-family: Righteous;
     }
 
     p {
@@ -104,10 +105,10 @@
     
     h1 {
         font-size: 4em;
-        padding: 0em;
+        padding-top: 1em;
         margin-bottom: 1em;
         text-align: center;
-        font-family: Permanent Marker;
+        font-family: Righteous;
         
     }
 
@@ -168,12 +169,13 @@
         margin: 0.5em;
     }
 
-    /*skills grid*/
+     /*skills grid*/
 
-    .skills-grid {
+     .skills-grid {
         display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
+        grid-template-columns: 100%;
+        text-align: center;
+        
        
     }
 
@@ -187,6 +189,7 @@
         max-width: 5em;
         padding: 1em;
         margin-bottom: 1em;
+        
     }
 
     .skills-grid li { 
@@ -248,7 +251,7 @@
         margin-bottom:.5em;
         color: rgb(0, 78, 148);
         text-align: center;
-        font-family: Permanent Marker;
+        font-family: Righteous;
     }
   
       p {
@@ -303,10 +306,10 @@
       
       h1 {
           font-size: 4em;
-          padding: 0em 2.5em 0em 2.5em;
+          padding: 1.5em 2.5em 0em 2.5em;
           margin-bottom: 1em;
           text-align: center;
-          font-family: Permanent Marker;          
+          font-family: Righteous;          
       }
   
       .hero-text p {
@@ -442,7 +445,7 @@
         margin-bottom:.5em;
         color: rgb(0, 78, 148);
         text-align: center;
-        font-family: Permanent Marker;
+        font-family: Righteous;
     }
   
       p {
@@ -497,10 +500,10 @@
       
       h1 {
           font-size: 4em;
-          padding: 0em 5em 0em 5em;
+          padding: 1.5em 5em 0em 5em;
           margin-bottom: 1em;
           text-align: center;
-          font-family: Permanent Marker;          
+          font-family: Righteous;          
       }
   
       .hero-text p {
